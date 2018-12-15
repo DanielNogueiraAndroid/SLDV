@@ -25,10 +25,10 @@ Serial.println(inches);
 void loop() {
 read_sensor();
 print_range();
-//digitalWrite(vMotor, HIGH);
+analogWrite(vMotor, 52);
 //delay(20-(mm/200));
-
-digitalWrite(vMotor, LOW);
-delay(100);
+//delay(100);
+//digitalWrite(vMotor, LOW);
+//delay(100);
 
 }
