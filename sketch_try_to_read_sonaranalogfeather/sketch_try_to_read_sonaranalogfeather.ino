@@ -31,7 +31,7 @@ read_sensor();
 print_range();
 analogWrite(vMotor, pwm);
 //delay(20-(mm/200));
-delay(10);
+delay(100);
 //digitalWrite(vMotor, LOW);
 //delay(100);
 
